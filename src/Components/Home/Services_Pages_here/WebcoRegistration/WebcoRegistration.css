@@ -28,7 +28,11 @@
 
 @media screen and (max-width:768px) {
     .Aboutbghere7 {
-        height: auto;
+        height: auto !important;
+    }
+
+    .Aboutbghere7 {
+        margin-bottom: 10rem;
     }
 
 }

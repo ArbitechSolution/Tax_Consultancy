@@ -8,49 +8,49 @@ import { render } from 'react-dom';
 import ReactWhatsapp from 'react-whatsapp';
 
 export default function Overview_About() {
-  const { ref, map, google } = useGoogleMaps(
-    // Use your own API key, you can get one from Google (https://console.cloud.google.com/google/maps-apis/overview)
-    "AIzaSyC4Z5Qz97EWcoCczNn2IcYvaYG0L9pe6Rk",
-    // NOTE: even if you change options later
-    {
-      center: { lat: 0, lng: 0 },
-      zoom: 3
-    }
-  );
-  console.log(map); // instance of created Map object (https://developers.google.com/maps/documentation/javascript/reference/map)
-  console.log(google); // google API object (easily get google.maps.LatLng or google.maps.Marker or any other Google Maps class)
+  // const { ref, map, google } = useGoogleMaps(
+  //   // Use your own API key, you can get one from Google (https://console.cloud.google.com/google/maps-apis/overview)
+  //   "AIzaSyC4Z5Qz97EWcoCczNn2IcYvaYG0L9pe6Rk",
+  //   // NOTE: even if you change options later
+  //   {
+  //     center: { lat: 0, lng: 0 },
+  //     zoom: 3
+  //   }
+  // );
+  // console.log(map); // instance of created Map object (https://developers.google.com/maps/documentation/javascript/reference/map)
+  // console.log(google); // google API object (easily get google.maps.LatLng or google.maps.Marker or any other Google Maps class)
   return <div>
 
 
-  
+
     <div className="aboutbgoverview">
       <div className="container">
 
 
         <div className="row ">
-        <div className="left-holder slider-contentaboutpage ">
+          <div className="left-holder slider-contentaboutpage ">
 
 
-                    <h1 className="text-center Aboutpageheadinghere"><span className='headingspancolor'>About Us</span></h1>
-                    <div className="aboutdescription2">
+            <h1 className="text-center Aboutpageheadinghere"><span className='headingspancolor'>About Us</span></h1>
+            <div className="aboutdescription2">
 
-                        <p className="Text_here_p">
-                        With utmost emphasis on the ethics of the profession and code of conduct, Saad Tax Associates is a firm engaged in offering a comprehensive range of management services to its clients. Established in 2009, we are a team of professionals & competent staff members. We provide on-time and effective business management services to our clients.
-                        </p>
-                    
-                    </div>
+              <p className="Text_here_p">
+                With utmost emphasis on the ethics of the profession and code of conduct, Saad Tax Associates is a firm engaged in offering a comprehensive range of management services to its clients. Established in 2009, we are a team of professionals & competent staff members. We provide on-time and effective business management services to our clients.
+              </p>
 
-
+            </div>
 
 
 
-                </div>
+
+
+          </div>
           <div className="col-lg-6">
 
 
 
 
-          <div className="colimgdiv3">
+            <div className="colimgdiv3">
               <div class="boxtexthere2">
                 <h1 className='text-white'>Our Mission</h1>
                 <p class="Seconddiv_text2">We always try to maintain our commitment towards professionalism which makes our relationship strong with our prestigious clients. Our Legal Attorneys attempt to aware and understand our client’s business condition and continuously provide the highest quality information, services, and products to help them in reaching their goals.</p>
@@ -112,7 +112,7 @@ export default function Overview_About() {
           </div>
 
           <div className="col-lg-6">
-            
+
             <div className="colimgdiv3">
               <div class="Seconddivtext2">
                 <h1 className='text-white'>Our Strengths</h1>
@@ -234,18 +234,18 @@ export default function Overview_About() {
 
         </div>
 
-        <div className="MapdivAbouthere">
-          <div className="Firstbtnhere">
-            <button className='btn btn-lg Firstmapbtnhere' >STA</button>
+        <div className="">
+          <div className="">
+            {/* <button className='btn btn-lg Firstmapbtnhere' >STA</button> */}
           </div>
-
+          {/* 
           <div class="TextUpereMapabout mt-4">
             <h2 class="elementor-heading-title elementor-size-default">
               <span >Our Office Address</span>
             </h2>
-          </div>
+          </div> */}
 
-          <div ref={ref} style={{ width: "100%", height: 400 }} />
+          {/* <div ref={ref} style={{ width: "100%", height: 400 }} /> */}
         </div>
 
       </div>

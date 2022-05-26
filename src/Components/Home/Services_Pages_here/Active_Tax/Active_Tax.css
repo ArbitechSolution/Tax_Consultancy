@@ -76,7 +76,12 @@ ul.UlList {
 
 @media screen and (max-width:768px) {
     .Aboutbghere5 {
-        height: auto;
+        height: auto !important;
     }
+
+    .Aboutbghere5 {
+        margin-bottom: 10em;
+    }
+
 
 }
