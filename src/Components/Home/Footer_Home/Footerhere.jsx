@@ -74,7 +74,7 @@ export default function Footerhere() {
                                         </li>
                                         <li className="icon-list-item">
                                             <i aria-hidden="true" class="fab fa-linkedin-in list-icon"></i>
-                                            <a target="_blank" className='linkatag' target="_blank" href="mailto:info@arbitechsolution.pk">
+                                            <a target="_blank" href="https://www.linkedin.com/company/saad-tax-associates" className='linkatag'>
                                                 <p className="list-text texthover linkfronnavbar">STA on LinkedIn</p>
                                             </a>
                                         </li></ul></div>

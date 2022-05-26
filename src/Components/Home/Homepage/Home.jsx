@@ -1,46 +1,71 @@
-import React from 'react';
-import './Homestyle.css'
-import ReactWhatsapp from 'react-whatsapp';
+import React, { Component } from "react";
+import Slider from "react-slick";
+import "./Homestyle.css"
+export default class Home extends Component {
+    render() {
+        const settings = {
+            dots: true,
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            speed: 2000,
+            autoplaySpeed: 2000,
+            cssEase: "linear",
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        initialSlide: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        };
+        return (
+            <div className="container">
 
-
-
-export default function Home() {
-    return <div>
-
-
-        <div className="" >
-
-            <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
-                <div className="carousel-inner">
-                    <div className="carousel-item  active" data-bs-interval="1000">
-                        <img src="1..webp" className="d-block w-100 slider_img" alt="..." />
+                <Slider {...settings}>
+                    <div className="">
+                        <img src="1.webp" width="300px" alt="" />
                     </div>
-                    <div className="carousel-item" data-bs-interval="1000">
-                        <img src="2.webp" className="d-block w-100 slider_img" alt="..." />
+                    <div className="">
+                        <img src="1..webp" width="300px" alt="" />
                     </div>
-                    <div className="carousel-item" data-bs-interval="1000">
-                        <img src="3.webp" className="d-block w-100 slider_img" alt="..." />
+                    <div>
+                        <img src="2.webp" width="300px" alt="" />
                     </div>
-                    <div className="carousel-item" data-bs-interval="1000">
-                        <img src="4.webp" className="d-block w-100 slider_img" alt="..." />
+                    <div>
+                        <img src="3.webp" width="300px" alt="" />
                     </div>
-                    <div className="carousel-item" data-bs-interval="1000">
-                        <img src="5.webp" className="d-block w-100 slider_img" alt="..." />
+                    <div>
+                        <img src="4.webp" width="300px" alt="" />
                     </div>
-                    <div className="carousel-item" data-bs-interval="1000">
-                        <img src="6.webp" className="d-block w-100 slider_img" alt="..." />
+                    <div>
+                        <img src="5.webp" width="300px" alt="" />
                     </div>
-                </div>
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Previous</span>
-                </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Next</span>
-                </button>
+                    <div>
+                        <img src="6.webp" width="300px" alt="" />
+                    </div>
+                </Slider>
             </div>
-
-        </div>
-    </div>;
+        );
+    }
 }

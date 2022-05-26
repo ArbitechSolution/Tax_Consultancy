@@ -85,8 +85,9 @@ export default function Service_Home() {
                             <div className="card work-inner-box ">
                                 <img src="active tax.jpg" alt="" width="100%" />
                                 <h4 className='mt-5'>Active TAX Filer  </h4>
-                                <p>Appeals are normally filed on the basis of differences between Taxpayer and Tax Departments which arise because of mismatch of taxable Income and Tax liability thereon as well as implication of default surcharge and penalties.</p>
-
+                                <p>
+                                    The Active Taxpayer List (ATL) is the online record of persons who are regular income tax filler in previous years. Active Taxpayer List is published every financial year on the 1st March and is valid up to the last day of February of the next financial year.
+                                </p>
                                 <div className="card-footer mt-2">
                                     <Link to="Active_Tax">
                                         <button className='btn bt-lg btnlearn2'>Learn More</button>
@@ -100,8 +101,9 @@ export default function Service_Home() {
                             <div className="card work-inner-box ">
                                 <img src="lcci.jpg" alt="" width="100%" />
                                 <h4 className='mt-5'>Camber of Commerce  </h4>
-                                <p>You can hire us on retainer basis so we can help you file sales tax and conform to other obligations on monthly basis. Our Retainer services start at Rs. 20,000/Month</p>
-
+                                <p>
+                                    A chamber of commerce is an association or network of businesspeople designed to promote and protect the interests of its members. A chamber of commerce is often made up of a group of business owners that share a locale
+                                </p>
                                 <div className="card-footer">
                                     <Link to="/Camber_of_Commerce">
                                         <button className='btn bt-lg btnlearn2'>Learn More</button>
@@ -136,8 +138,9 @@ export default function Service_Home() {
                             <div className="card work-inner-box ">
                                 <img src="weboc.jpg" alt="" width="100%" />
                                 <h4 className='mt-5'>Weboc Registration </h4>
-                                <p>These are lawful authority to manage the Sales Tax on Services in Pakistan. Service Tax is indirect taxes which apply to services specified in schedule II on “taxable service. The person who offers the taxable service is responsible for paying the service tax to these Authorities.</p>
-
+                                <p>
+                                    WeBOC registration is compulsory to start import and export business in Pakistan. Since 2011, has been playing a huge role in facilitating the traders, custom officers, and agents. For the last 8 years WeBOC has contributed to making the filing processes simpler, GD clearance system faster, and container tracking easier.
+                                </p>
                                 {/* <button className='btn bt-lg btnlearn'>Learn More</button> */}
                                 {/* <div className="card-footer">
 
