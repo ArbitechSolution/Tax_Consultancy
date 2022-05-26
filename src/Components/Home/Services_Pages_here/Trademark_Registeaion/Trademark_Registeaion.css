@@ -1,0 +1,81 @@
+
+
+
+
+
+.AboutbghereTM{
+    background-image: url('../../../../Assets/tm\ Regis.jpg') !important;
+    padding-top: 250px !important;
+    height:90vh !important ;
+    z-index: -1 !important;
+}
+.AboutbghereTM {
+    position: relative;
+}
+
+.AboutbghereTM {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+    background-position: center;
+    background-size: cover;
+   
+    display: flex;
+
+    justify-content: center;
+    
+    align-items: center;
+}
+
+
+.NTN_heading_here{
+    padding: 40px 0 0 0;
+}
+
+.NTN_heading_here h2 {
+    font-family: "droid_serifbold";
+    font-size: 50px;
+    margin-bottom: 12px;
+    text-transform: capitalize;
+    text-align: left ;
+    background-image: linear-gradient( 111deg, #4A00E0, #FF0099);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* margin-top: 0; */
+}
+
+.NTN_heading_here p{
+    text-align: left;
+}
+
+.Text_More_here{
+    text-align: left;
+}
+
+ul.UlList{
+   list-style-type:square;
+ 
+}
+
+.aboutdescription25 li {
+    color: #54595f;
+    font-family: "Poppins",Sans-serif;
+
+    font-weight: 400;
+    line-height: 1.6em;
+    /* text-align: center; */
+}
+.aboutdescription25  {
+    color: #54595f;
+    font-family: "Poppins",Sans-serif;
+
+    font-weight: 400;
+    line-height: 1.6em;
+    /* text-align: center; */
+}
+@media screen and (max-width:768px) {
+    .AboutbghereTM{
+        height: auto;
+    }
+    
+}

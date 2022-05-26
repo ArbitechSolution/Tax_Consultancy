@@ -1,0 +1,308 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+
+
+
+.slider_img{
+    height: 100vh;
+    position: relative;
+}
+
+.swiper-slideNFT {
+    height: 100vh !important;
+    position: relative;
+
+   
+}
+
+
+
+.overlay2{
+    margin-top: -3rem;
+}
+
+
+.banner-blockNFT {
+    position: relative;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+    background-position: center;
+    background-size: cover;
+    /* display: -webkit-box; */
+    display: -ms-flexbox;
+    /* display: -webkit-flex; */
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    /* -webkit-justify-content: center; */
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    /* -webkit-align-items: center; */
+    align-items: center;
+}
+.swiper-slideNFT {
+    
+    /* flex-shrink: 0; */
+    width: 100%;
+    height: 85vh;
+  
+
+ 
+}
+.sec-overlayNFT {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.8);
+}
+
+.banner_tit {
+    /* font-size: 50px; */
+    color: #fff;
+    line-height: 1.4;
+    font-weight: 600;
+    font-family: 'Fira Sans',sans-serif;
+}
+.slider-content{
+    /* margin-top: 0.001rem; */
+}
+.slider-content h1 {
+    margin-bottom: 40px;
+    margin-top: 10px;
+    font-size: 38px;
+}
+
+.banner_tit h1 {
+    display: inline;
+}
+.slider-content h2, .slider-content h1 {
+    /* font-size: 50px; */
+    color: #fff;
+    line-height: 1.4;
+    font-weight: 600;
+}
+.slider-content p {
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.slider-content p {
+    margin-bottom: 50px !important;
+    font-size: 20px;
+}
+.slider-content p {
+    color: #fff;
+    /* font-size: 16px; */
+}
+.slider-content p {
+    /* font-size: 15px; */
+    /* color: rgba(255,255,255,.7); */
+    line-height: 1.9;
+    font-weight: 400;
+    /* max-width: 100%; */
+    margin-top: 10px;
+    word-wrap: break-word;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner-block{
+    /* background-image: url('../../../Assets/calculator-calculation-insurance-385506.jpg') !important;s */
+    padding-top: 170px !important;
+    height:87vh !important ;
+    z-index: -1 !important;
+}
+.banner-block {
+    position: relative;
+}
+
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+    background-position: center;
+    background-size: cover;
+    
+    display: flex;
+    
+    justify-content: center;
+    
+    align-items: center;
+}
+
+.sec-overlay {
+ 
+    /* background-color: rgba(255, 255, 255, 0.8) !important; */
+    background-color:#131313  !important;
+    opacity: 0.8;
+    z-index: 0 !important;
+    height: 87vh !important;
+}
+
+.sec-overlay {
+    position: absolute;
+    top: 0rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* background-color: rgba(0,0,0,.8); */
+}
+
+
+.slider-content{
+    margin-top: -10rem;
+}
+/*! elementor - v3.5.4 - 23-01-2022 */
+/*! elementor - v3.5.4 - 23-01-2022 */
+
+.headingspancolor{
+    background-image: linear-gradient( 
+111deg
+ , #f7ff00, #FF0099);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.headinghere{
+    /* font-size: 50px; */
+    /* color: #fff; */
+    /* line-height: 1.4;
+    font-weight: 600;
+    color: #fff !important;
+    z-index: 1000 !important;
+    position: relative; */
+    text-align: left !important;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    margin: 0px 0 34px;
+    padding: 0;
+    border-radius: 0;
+
+    font-size: 45px;
+    font-weight: 600;
+}
+
+
+.homepagedescription p{
+    text-align: left;
+    color: #fff !important;
+    font-family: 'Poppins', sans-serif;
+   font-size: 20px;
+    line-height: 30px;
+    position: relative;
+
+}
+
+.button-mdhome {
+    font-family: 'Poppins', sans-serif;
+    width: 40%;
+
+    font-size: 15px;
+    font-weight: 500;
+    /* fill: #fff; */
+    color: #fff;
+    padding: 13px 25px;
+    position: relative;
+    background-color: #1a8f2b;
+    /* border: 2px solid #f42f54; */
+    /* color: #fff; */
+    border-radius: 7px;
+    padding: 1em;
+   
+
+    /* text-decoration: none; */
+    margin-top: 2rem;
+    
+}
+
+.logarb{
+    position: relative;
+    width: 50% !important;
+   
+
+}
+
+.secondcoldivhere{
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+ 
+  
+    position: relative;
+}
+
+.button-md:hover{
+    color: #f42f54;
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+
+
+@media screen and (max-width: 991px){
+.slider-content h2, .slider-content h1 {
+    font-size: 27px;
+  
+    /* line-height: 1.4; */
+    margin-top: 2rem;
+    font-weight: 600;
+}
+
+.swiper-slideNFT{
+    height: auto !important;
+}
+.button-md {
+    padding: 13px 50px;
+    width: 100%;
+
+}
+.slider-content p {
+   
+    width: 90%;
+}
+
+
+.banner-block{
+height: auto !important;
+}
+.secondcoldivhere{
+ padding-bottom: 4rem;
+}
+}
+
+.logarb {
+    animation: logarb infinite 8s linear;
+  }
+
+@keyframes logarb {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

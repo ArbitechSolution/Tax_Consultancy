@@ -1,0 +1,94 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.tax_updatebg{
+    background-color: #131313 !important;
+    height: auto;
+padding-bottom: 5rem;
+
+}
+
+
+.btntexfaq{
+    margin: 0 0 5px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    font-size: 24px;
+    font-family: "Poppins",Sans-serif;
+    color: #131313;
+    font-weight: 400;
+
+}
+
+.maindivcardtax{
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 15%);
+    border-width: 0;
+    border-radius: 10px;
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 350px;
+}
+.innercardtextheading h3{
+    color: #131313;
+    font-family: "Poppins",Sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+
+.innercardtextheading p{
+    margin: 0;
+    line-height: 1.5em;
+    font-size: 14px;
+    color: #777;
+    margin-top: 2rem;
+    font-family: "Poppins",Sans-serif;
+
+    text-align: left;
+}
+.text-leftaaa{
+    color: #54595f;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Poppins",Sans-serif;
+    margin-top: 2rem;
+    text-align: left;
+    text-decoration: none;
+    
+
+}
+
+.card-footer{
+    /* box-shadow: 0 0 10px 0 rgb(0 0 0 / 15%); */
+    /* background-color: #f7f7f7; */
+    background-color: transparent;
+
+   
+    margin-top:2rem ;
+    /* height: 2vh; */
+
+}
+
+.card-footer p{
+    text-align: left;
+    padding: 0;
+    line-height: 1.3em;
+    font-size: 12px;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+   
+    color: #adadad;
+}
+
+
+@media screen and (max-width:768px) {
+
+    .maindivcardtax{
+        height: auto;
+    }
+    
+}

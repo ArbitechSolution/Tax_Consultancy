@@ -1,0 +1,14 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.MainheadingLates h2{
+
+    color: #262626;
+    font-family: "Poppins",Sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1.2em;
+}
