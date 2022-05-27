@@ -5,10 +5,54 @@
 
 
 
-.slider_img {
-    height: 30vh;
-    width: 30vh !important;
-    position: relative;
+.slider_img1 {
+    width: 300px;
+    height: 250px;
+    /* line-height: 50px; */
+    background-size: cover;
+    z-index: -1;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://img.khelnama.com/sites/default/files/mediaimages/gallery/2012/Aug/RTR36KBH.jpg'); */
+    position: absolute;
+    text-align: center;
+    background-image: url('../../../../public/1..webp');
+}
+
+.slider_img2 {
+    width: 300px;
+    height: 250px;
+    line-height: 300px;
+    background-size: cover;
+    z-index: -1;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://img.khelnama.com/sites/default/files/mediaimages/gallery/2012/Aug/RTR36KBH.jpg'); */
+    position: absolute;
+    text-align: center;
+    background-image: url('../../../../public/2.webp');
+}
+
+.slider_img3 {
+    width: 300px;
+    height: 250px;
+    line-height: 300px;
+    background-size: cover;
+    z-index: -1;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://img.khelnama.com/sites/default/files/mediaimages/gallery/2012/Aug/RTR36KBH.jpg'); */
+    position: absolute;
+    text-align: center;
+    background-image: url('../../../../public/3.webp');
+}
+
+.text-color1 {
+    color: #db3333;
+    font-size: 20px;
+    margin-top: 6rem;
+    font-weight: 900;
+}
+
+.text-color2 {
+    color: #fffffa;
+    font-size: 18px;
+    /* margin-top: 1rem; */
+    font-weight: 900;
 }
 
 .swiper-slideNFT {
@@ -282,6 +326,45 @@
         /* line-height: 1.4; */
         margin-top: 2rem;
         font-weight: 600;
+    }
+
+    .slider_img1 {
+        width: 250px;
+        height: 250px;
+
+
+    }
+
+    .slider_img2 {
+        width: 250px;
+        height: 250px;
+
+    }
+
+    .slider_img3 {
+        width: 250px;
+        height: 250px;
+
+    }
+
+    .slider_img4 {
+        width: 250px;
+        height: 250px;
+        justify-content: space-between;
+    }
+
+    .slider_img5 {
+        width: 250px;
+        height: 250px;
+        justify-content: space-between;
+
+    }
+
+    .slider_img6 {
+        width: 250px;
+        height: 250px;
+        display: flex;
+        justify-content: space-between;
     }
 
     .swiper-slideNFT {

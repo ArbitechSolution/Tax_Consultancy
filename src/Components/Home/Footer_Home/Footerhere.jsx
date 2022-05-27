@@ -23,7 +23,7 @@ export default function Footerhere() {
 
                                 <div className="textandicon">
                                     <ul className="textandicon-icon-list-items">
-                                        <li className="icon-list-item" style={{ marginTop: '1rem' }}>
+                                        <li className="icon-list-item">
                                             <div className="iconandtexthere">
                                                 <i aria-hidden="true" className="fas fa-map-marker-alt list-icon"></i>
                                                 <p className="list-text ">Office No 02, 3rd Floor, Link Arcade Building, Model Town Link Road Lahore.</p>
@@ -48,11 +48,11 @@ export default function Footerhere() {
 
                         </div>
 
-                        <div className="col-lg-3 col-md-6 col-sm-3 col-7" >
+                        <div className="col-lg-3 col-md-6 col-sm-3 col-7 " >
                             <div className="col1divfooter">
 
                                 <h3>FOLLOW TAX UPDATES ON SOCIAL MEDIA</h3>
-
+                                {/* 
                                 <div className="textandicon">
                                     <ul className="textandicon-icon-list-items">
                                         <li className="icon-list-item" style={{ marginTop: '1rem' }}>
@@ -77,7 +77,17 @@ export default function Footerhere() {
                                             <a target="_blank" href="https://www.linkedin.com/company/saad-tax-associates" className='linkatag'>
                                                 <p className="list-text texthover linkfronnavbar">STA on LinkedIn</p>
                                             </a>
-                                        </li></ul></div>
+                                        </li></ul>
+                                        </div> */}
+
+                                <ul class="social-icons text-start mt-4">
+                                    <li><a target="_blank" href="https://www.facebook.com/Taxreturninfo/" class="social-icon m-1"> <i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="" class="social-icon m-1"> <i class="fa fa-twitter"></i></a></li>
+                                    {/* <li><a href="" class="social-icon"> <i class="fa fa-rss"></i></a></li> */}
+                                    <li><a href="" class="social-icon m-1 "> <i class="fa fa-instagram"></i></a></li>
+                                    <li><a target="_blank" href="https://www.linkedin.com/company/saad-tax-associates" class="social-icon m-1"> <i class="fa fa-linkedin"></i></a></li>
+                                    {/* <li><a href="" class="social-icon"> <i class="fa fa-github"></i></a></li> */}
+                                </ul>
                             </div>
 
                         </div>

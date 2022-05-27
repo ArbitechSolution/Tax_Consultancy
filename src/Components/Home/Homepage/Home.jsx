@@ -40,29 +40,34 @@ export default class Home extends Component {
             ]
         };
         return (
-            <div className="container">
+            <div className="container marginTop">
 
                 <Slider {...settings}>
-                    <div className="">
-                        <img src="1.webp" width="300px" alt="" />
-                    </div>
-                    <div className="">
-                        <img src="1..webp" width="300px" alt="" />
+                    <div>
+                        <div className="slider_img1">
+                            <p className=" text-color1">Paying tax is not a punishment  It’s a responsibility</p>
+                        </div>
                     </div>
                     <div>
-                        <img src="2.webp" width="300px" alt="" />
+                        <div className="slider_img2">
+                            <p className=" text-color2">	Knowledge, Experience & Trust</p>
+                        </div>
                     </div>
                     <div>
-                        <img src="3.webp" width="300px" alt="" />
+                        <div className="slider_img3">
+                            <p className="text-color2">Practical Approach |Educating the nation</p>
+                        </div>
                     </div>
-                    <div>
-                        <img src="4.webp" width="300px" alt="" />
+
+
+                    <div className="slider_img4">
+                        <img src="4.webp" width="300px" height="250px" alt="" />
                     </div>
-                    <div>
-                        <img src="5.webp" width="300px" alt="" />
+                    <div className="slider_img5">
+                        <img src="5.webp" width="300px" height="250px" alt="" />
                     </div>
-                    <div>
-                        <img src="6.webp" width="300px" alt="" />
+                    <div className="slider_img6">
+                        <img src="6.webp" width="300px" height="250px" alt="" />
                     </div>
                 </Slider>
             </div>

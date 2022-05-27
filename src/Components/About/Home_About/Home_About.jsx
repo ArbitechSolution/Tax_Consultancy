@@ -7,7 +7,7 @@ export default function Home_About() {
         <div className="Aboutbghere">
             <div className="sec-overlayabouthere"></div>
             <div className="container overlayabout">
-                
+
             </div>
 
 

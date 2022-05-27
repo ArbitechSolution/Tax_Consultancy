@@ -2,6 +2,11 @@ import React, { useEffect } from 'react';
 import './Headerstyle.css';
 import { Link } from 'react-router-dom';
 import { Container, Nav, Navbar } from 'react-bootstrap'
+import Pdf from '../../../Documents/Tax-Card-FY-2018.pdf';
+import Pdf2 from '../../../Documents/Tax-Card-FY-2019.pdf';
+import Pdf3 from '../../../Documents/Tax-Chart-FY-2021.pdf';
+import Pdf4 from '../../../Documents/Tax-Chart-FY-2022.pdf';
+
 
 
 
@@ -12,7 +17,7 @@ export default function Header() {
 
 
 
-    return <div>
+    return <div className='marginBotoom'>
 
         {/* <Navbar collapseOnSelect expand="lg" className='navbgcolor'>
             <Container>
@@ -49,9 +54,9 @@ export default function Header() {
 
 
 
-        <nav class="navbar navbar-expand-xl navbar-light  navbgcolor">
+        <nav class="navbar navbar-expand-xl navbar-light fixed  navbgcolor fixed-top  fixed-nav-bar">
             <div class="container">
-                <a class="navbar-brand " href="#"><img src="A._Logo_File__1_-removebg-preview.png"  className="Img_header_nav" alt="" width="80px" />
+                <a class="navbar-brand " href="#"><img src="A._Logo_File__1_-removebg-preview.png" className="Img_header_nav" alt="" width="80px" />
                     <span className='text_nav_band'>
                         <span className=' '>
                             <span className=' Change_Color'>Saad</span>  <span className='Log_text '>Tax Associates</span>
@@ -81,6 +86,24 @@ export default function Header() {
                             </Link>
                         </li>
                         <li class="nav-item">
+                            {/* <Link to="/contact">
+                                <a class="nav-link " href="#" >   <button className='btn navbtn'>Contact</button> </a>
+                            </Link> */}
+                            <div class="dropdown  nav-link">
+                                <a class="nav-link " href="#" >   <button className='btn  taxcal'>TAX CALULATOR</button> </a>
+
+                                {/* <button class=" navbtn">Dropdown</button> */}
+                                <div class="dropdown-content">
+                                    <a className='text-size' href={Pdf4} target="_blank">TAX CARD - TAX YEAR 2022</a>
+                                    <a className='text-size' href={Pdf3} target="_blank">TAX CARD - TAX YEAR 2021</a>
+                                    <a className='text-size' href={Pdf2} target="_blank">TAX CARD - TAX YEAR 2019</a>
+                                    <a className='text-size' href={Pdf} target="_blank">TAX CARD - TAX YEAR 2018</a>
+                                    <a className='text-size' href="#">SALARY TAX CALCULATOR</a>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
 
                             <Link to="/update">
                                 <a class="nav-link " href="#" >   <button className='btn navbtn'>Updates</button> </a>
@@ -97,6 +120,8 @@ export default function Header() {
                                 <a class="nav-link " href="#" >   <button className='btn navbtn'>Contact</button> </a>
                             </Link>
                         </li>
+
+
                     </ul>
 
                 </div>

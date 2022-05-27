@@ -9,8 +9,8 @@ import { Link } from 'react-router-dom';
 export default function Service_Home() {
     return <div>
 
-        <div className="section-block">
-            <div className="container">
+        <div className="section-bloc">
+            <div className="container ">
                 <div className="section-heading center-holder">
 
 

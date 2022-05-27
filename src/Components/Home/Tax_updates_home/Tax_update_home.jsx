@@ -1,6 +1,6 @@
 import React from 'react';
 import './Tax_home.css'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export default function Text_update_home() {
     return <div>
@@ -8,9 +8,9 @@ export default function Text_update_home() {
         <div className="tax_updatebg">
             <div className="container">
                 <div className="btntextupdatefaq">
-                  <Link to="/update"  onClick={()=>    window.scrollTo(0,0)}> 
-                  <button className=' btn btntexfaq'>Tax Updates</button>
-                  </Link>  
+                    <Link to="/update" onClick={() => window.scrollTo(0, 0)}>
+                        <button className=' btn btntexfaq'>Tax Updates</button>
+                    </Link>
                 </div>
 
                 <div className="row ">

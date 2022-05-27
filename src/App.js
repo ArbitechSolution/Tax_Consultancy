@@ -30,7 +30,7 @@ function App() {
         <Route exact path="/services" component={Services}></Route>
         <Route exact path="/update" component={Upadate}></Route>
         <Route exact path="/about" component={About}></Route>
-        <Route exact path="/contact" component={Contact}></Route>
+        {/* <Route exact path="/contact" component={Contact}></Route> */}
 
 
 
