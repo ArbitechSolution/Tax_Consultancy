@@ -317,7 +317,14 @@
 
 }
 
-@media screen and (min-width:768px) {
+#CompanysetSize {
+    color: #fff;
+    font-family: 'poppins', Sans-serif;
+    font-size: 12px;
+    /* line-height: 2.5em !important; */
+}
+
+@media screen and (max-width:768px) {
     .work-inner-box h4 {
         font-weight: 500;
         color: #000;
@@ -353,6 +360,33 @@
         font-family: 'poppins', Sans-serif;
         font-size: 12px;
         line-height: 2.5em !important;
+    }
+
+    #TrademarksetSize {
+        line-height: 2.1em !important;
+    }
+
+}
+
+@media (min-width:1000px) and (max-width:1030px) {
+
+
+    #setSize {
+        color: #fff;
+        font-family: 'poppins', Sans-serif;
+        font-size: 12px;
+        line-height: 1.6em !important;
+    }
+
+    #TrademarksetSize {
+        line-height: 2.3em !important;
+    }
+
+    #CompanysetSize {
+        color: #fff;
+        font-family: 'poppins', Sans-serif;
+        font-size: 12px;
+        line-height: 1.9em !important;
     }
 
 }

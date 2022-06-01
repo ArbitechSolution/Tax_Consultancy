@@ -117,7 +117,7 @@ export default function Service_Home() {
                             <div className="card work-inner-box ">
                                 <img src="tm Regis.jpg" alt="" width="100%" />
                                 <h4 className='mt-5'>Trademark Registeaion  </h4>
-                                <p id='setSize'>For every Company in Pakistan, it is necessary to ensure the intellectual rights by registering the trademark. We offer the best trademark registration services to its customers.</p>
+                                <p id='TrademarksetSize'>For every Company in Pakistan, it is necessary to ensure the intellectual rights by registering the trademark. We offer the best trademark registration services to its customers.</p>
 
                                 <div className="card-footer">
                                     <Link to="/Trademark_Registeaion">
