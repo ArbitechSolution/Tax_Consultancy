@@ -25,9 +25,17 @@ export default class Home extends Component {
                 {
                     breakpoint: 600,
                     settings: {
-                        slidesToShow: 2,
+                        slidesToShow: 1,
                         slidesToScroll: 2,
                         initialSlide: 2
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        initialSlide: 1
                     }
                 },
                 {
@@ -45,7 +53,7 @@ export default class Home extends Component {
                 <Slider {...settings}>
                     <div>
                         <div className="slider_img1">
-                            <p className=" text-color1">Paying tax is not a punishment  It’s a responsibility</p>
+                            <p className="text-color1">Paying tax is not a punishment  It’s a responsibility</p>
                         </div>
                     </div>
                     <div>

@@ -54,9 +54,9 @@ export default function Header() {
 
 
 
-        <nav class="navbar navbar-expand-xl navbar-light fixed  navbgcolor fixed-top  fixed-nav-bar">
-            <div class="container">
-                <a class="navbar-brand " href="#"><img src="A._Logo_File__1_-removebg-preview.png" className="Img_header_nav" alt="" width="80px" />
+        <nav className="navbar navbar-expand-xl navbar-light fixed  navbgcolor fixed-top  fixed-nav-bar">
+            <div className="container">
+                <a className="navbar-brand " href="#"><img src="A._Logo_File__1_-removebg-preview.png" className="Img_header_nav" alt="" width="80px" />
                     <span className='text_nav_band'>
                         <span className=' '>
                             <span className=' Change_Color'>Saad</span>  <span className='Log_text '>Tax Associates</span>
@@ -67,13 +67,13 @@ export default function Header() {
 
                 </a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 
-                    <i class="far fa-bars "></i>
+                    <i className="far fa-bars "></i>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
+                <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li className="nav-item">
                             <Link to='/'>
                                 <a class="nav-link active " aria-current="page" href="#">
                                     <button className='btn navbtn'>Home</button>
@@ -81,43 +81,45 @@ export default function Header() {
                             </Link>
                         </li>
 
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <Link to='/services'>    <a class="nav-link" href="#">   <button className='btn navbtn'>Services</button> </a>
                             </Link>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             {/* <Link to="/contact">
                                 <a class="nav-link " href="#" >   <button className='btn navbtn'>Contact</button> </a>
                             </Link> */}
-                            <div class="dropdown  nav-link">
-                                <a class="nav-link " href="#" >   <button className='btn  taxcal'>TAX CALULATOR</button> </a>
+                            <div className="dropdown  nav-link">
+                                <a className="nav-link " href="#" >   <button className='btn  taxcal'>TAX CALULATOR</button> </a>
 
                                 {/* <button class=" navbtn">Dropdown</button> */}
-                                <div class="dropdown-content">
+                                <div className="dropdown-content">
                                     <a className='text-size' href={Pdf4} target="_blank">TAX CARD - TAX YEAR 2022</a>
                                     <a className='text-size' href={Pdf3} target="_blank">TAX CARD - TAX YEAR 2021</a>
                                     <a className='text-size' href={Pdf2} target="_blank">TAX CARD - TAX YEAR 2019</a>
                                     <a className='text-size' href={Pdf} target="_blank">TAX CARD - TAX YEAR 2018</a>
-                                    <a className='text-size' href="#">SALARY TAX CALCULATOR</a>
+                                    <Link to='/salarytaxcalculator' className='text-size'>
+                                        SALARY TAX CALCULATOR
+                                    </Link>
 
                                 </div>
                             </div>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
 
                             <Link to="/update">
-                                <a class="nav-link " href="#" >   <button className='btn navbtn'>Updates</button> </a>
+                                <a className="nav-link " href="#" >   <button className='btn navbtn'>Updates</button> </a>
                             </Link>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
 
                             <Link to="/about">
-                                <a class="nav-link " href="#" >   <button className='btn navbtn'>About</button> </a>
+                                <a className="nav-link " href="#" >   <button className='btn navbtn'>About</button> </a>
                             </Link>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <Link to="/contact">
-                                <a class="nav-link " href="#" >   <button className='btn navbtn'>Contact</button> </a>
+                                <a className="nav-link " href="#" >   <button className='btn navbtn'>Contact</button> </a>
                             </Link>
                         </li>
 

@@ -1,0 +1,27 @@
+.main h1 {
+    background-color: #3d3f43;
+    padding: 3rem;
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 70px;
+}
+
+.main input {
+    border: none;
+    outline: none;
+    min-width: 12em;
+    background-color: aqua;
+    margin-bottom: 2rem;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:480px) {
+    .main h1 {
+
+        font-size: 38px;
+
+    }
+}

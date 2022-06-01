@@ -198,3 +198,40 @@
     }
 
 }
+
+@media (min-width:700px) {
+    .navbar-brand {
+        color: #fff !important;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px !important;
+        font-weight: 600;
+    }
+
+    .marginBotoom {
+        margin-bottom: 0rem;
+    }
+
+    .text_small {
+        font-size: 14px !important;
+        text-align: right;
+        font-weight: lighter;
+        font-style: italic;
+        display: none;
+    }
+
+
+    .Change_Color {
+        color: #f6882a;
+        font-weight: bolder;
+    }
+
+    .navbgcolor {
+
+        height: auto;
+        position: relative;
+    }
+
+    .Img_header_nav {
+        width: 40px;
+    }
+}

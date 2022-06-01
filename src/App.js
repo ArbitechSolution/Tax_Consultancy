@@ -18,6 +18,7 @@ import Active_Tax from './Components/Home/Services_Pages_here/Active_Tax/Active_
 import Camber_of_Commerce from './Components/Home/Services_Pages_here/Camber_of_Commerce/Camber_of_Commerce';
 import Trademark_Registeaion from './Components/Home/Services_Pages_here/Trademark_Registeaion/Trademark_Registeaion';
 import WebcoRegistration from './Components/Home/Services_Pages_here/WebcoRegistration/WebcoRegistration';
+import SalaryTaxCalculator from './Components/Home/SalaryTaxCalculator/SalaryTaxCalculator';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route exact path="/services" component={Services}></Route>
         <Route exact path="/update" component={Upadate}></Route>
         <Route exact path="/about" component={About}></Route>
+        <Route exact path="/salarytaxcalculator" component={SalaryTaxCalculator}></Route>
         {/* <Route exact path="/contact" component={Contact}></Route> */}
 
 

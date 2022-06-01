@@ -10,7 +10,7 @@ export default function Service_Home() {
     return <div>
 
         <div className="section-bloc">
-            <div className="container ">
+            <div className="container mt-5">
                 <div className="section-heading center-holder">
 
 
@@ -23,7 +23,7 @@ export default function Service_Home() {
                             <div className="work-inner-box ">
                                 <img src="ntn2.png" alt="" width="100%" />
 
-                                <h4>NTN/GST REGISTRATION</h4>
+                                <h4 className='ntnregistration'>NTN/GST REGISTRATION</h4>
                                 <p>National Tax Number (NTN)
                                     National Tax Number, commonly known as NTN is a unique ID issued by Federal Board of Revenue (FBR) –
                                     the apex tax regulatory authority in Pakistan, to verify the registration of business.
@@ -48,7 +48,7 @@ export default function Service_Home() {
                                 <img src="Business Reg.jpg" alt="" width="100%" />
                                 <h4>Company REGISTRATION
                                 </h4>
-                                <p>Are you the One who is looking to incorporate your Company in Pakistan? We at Tax Care provides our prestige clients with precise knowledge, how to incorporate and operate a business in Pakistan.
+                                <p id='CompanysetSize'>Are you the One who is looking to incorporate your Company in Pakistan? We at Tax Care provides our prestige clients with precise knowledge, how to incorporate and operate a business in Pakistan.
 
                                 </p>
 
@@ -66,7 +66,7 @@ export default function Service_Home() {
                             <div className="card work-inner-box ">
                                 <img src="tax Return.jpg" alt="" width="100%" />
                                 <h4 className='mt-5'>Income / SALES TAX Return  </h4>
-                                <p>This is essential for all Persons to file Income Tax Return that comes under the category defined by Income Tax Ordinance, 2001.  There are penalties for Non Filling of Income Tax Return in Pakistan.</p>
+                                <p id='setSize'>This is essential for all Persons to file Income Tax Return that comes under the category defined by Income Tax Ordinance, 2001.  There are penalties for Non Filling of Income Tax Return in Pakistan.</p>
                                 <div className="card-footer mt-5">
                                     <br />
                                     <Link to="/Sale_Tax_Return">
@@ -117,7 +117,7 @@ export default function Service_Home() {
                             <div className="card work-inner-box ">
                                 <img src="tm Regis.jpg" alt="" width="100%" />
                                 <h4 className='mt-5'>Trademark Registeaion  </h4>
-                                <p>For every Company in Pakistan, it is necessary to ensure the intellectual rights by registering the trademark. We offer the best trademark registration services to its customers.</p>
+                                <p id='setSize'>For every Company in Pakistan, it is necessary to ensure the intellectual rights by registering the trademark. We offer the best trademark registration services to its customers.</p>
 
                                 <div className="card-footer">
                                     <Link to="/Trademark_Registeaion">
