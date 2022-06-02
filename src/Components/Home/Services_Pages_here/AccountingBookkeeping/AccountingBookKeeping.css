@@ -1,0 +1,53 @@
+.Aboutbghere8 {
+    background-image: url('../../../../../public/accounting.jpg') !important;
+    padding-top: 200px !important;
+    height: 70vh !important;
+    z-index: -1 !important;
+    background-position: center;
+    background-size: cover;
+    /* padding-bottom: 300px !important; */
+}
+
+.Aboutbghere7 {
+    position: relative;
+}
+
+.sec-overlayabouthere8 {
+    /* background-color: rgba(255, 255, 255, 0.8) !important; */
+    background-color: #000 !important;
+    opacity: 0.6;
+    z-index: 0 !important;
+}
+
+
+
+.Aboutbghere8 {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+@media screen and (max-width:768px) {
+    .Aboutbghere8 {
+        height: auto !important;
+
+    }
+
+    .Aboutbghere8 {
+        margin-bottom: 10rem;
+    }
+
+    .bokkeeping {
+        font-size: 1.8rem;
+    }
+
+
+}

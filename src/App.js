@@ -19,6 +19,8 @@ import Camber_of_Commerce from './Components/Home/Services_Pages_here/Camber_of_
 import Trademark_Registeaion from './Components/Home/Services_Pages_here/Trademark_Registeaion/Trademark_Registeaion';
 import WebcoRegistration from './Components/Home/Services_Pages_here/WebcoRegistration/WebcoRegistration';
 import SalaryTaxCalculator from './Components/Home/SalaryTaxCalculator/SalaryTaxCalculator';
+import AccountingBookKeeping from './Components/Home/Services_Pages_here/AccountingBookkeeping/AccountingBookKeeping';
+import PunjabRevenue from './Components/Home/Services_Pages_here/PunjabRevnu/PunjabRevenue';
 
 function App() {
   return (
@@ -45,6 +47,8 @@ function App() {
         <Route exact path="/Camber_of_Commerce" component={Camber_of_Commerce}></Route>
         <Route exact path="/Trademark_Registeaion" component={Trademark_Registeaion}></Route>
         <Route exact path="/WebcoRegistration" component={WebcoRegistration}></Route>
+        <Route exact path="/Accounting_Book_Keeping" component={AccountingBookKeeping}></Route>
+        <Route exact path="/Punjab_Revenue" component={PunjabRevenue}></Route>
 
 
 

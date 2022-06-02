@@ -156,14 +156,15 @@ export default function Service_Home() {
                         <div className="col-lg-4 col-md-4    col-sm-4">
                             <div className=" card work-inner-box ">
                                 <img src="accounting.jpg" alt="" width="100%" />
-                                <h4 className='mt-5'>Accounting and Bookkeeping </h4>
-                                <p>Drafting of Legal contracts and agreements is significant for anyone wishes to start the new engagements and enter into a new contract with another party. All contracts go through a negotiation phase whereby the parties meet and discuss the terms.</p>
+                                <h4 className='mt-5'>Accounting & Bookkeeping Services in Pakistan</h4>
+                                <p>Bookkeeping is a very vast project in the overall accounting services in any business. The implementation of a fully Computerized Accounting System can take months that can further be extended on the basis of degree  </p>
 
                                 {/* <button className='btn bt-lg btnlearn'>Learn More</button> */}
 
                                 <div className="card-footer">
-
-                                    <button className='btn bt-lg btnlearn2'>Learn More</button>
+                                    <Link to='/Accounting_Book_Keeping'>
+                                        <button className='btn bt-lg btnlearn2'>Learn More</button>
+                                    </Link>
                                 </div>
 
                             </div>
@@ -171,13 +172,14 @@ export default function Service_Home() {
                         <div className="col-lg-4 col-md-4    col-sm-4">
                             <div className="card work-inner-box ">
                                 <img src="pra.jpg" alt="" width="100%" />
-                                <h4 className='mt-5'>PRA,SBR BRB, KPRA </h4>
-                                <p>Drafting of Legal contracts and agreements is significant for anyone wishes to start the new engagements and enter into a new contract with another party. All contracts go through a negotiation phase whereby the parties meet and discuss the terms. </p>
+                                <h4 className='mt-5'>Punjab Revenue Authority (PRA)</h4>
+                                <p>Punjab Revenue Authority also referred to as PRA is a provincial authority of Punjab established by virtue of Punjab Revenue Authority Act, 2012. Purpose of PRA is to collect sales tax on services or service tax in Punjab region.   </p>
 
 
                                 <div className="card-footer">
-
-                                    <button className='btn bt-lg btnlearn2'>Learn More</button>
+                                    <Link to='/Punjab_Revenue'>
+                                        <button className='btn bt-lg btnlearn2'>Learn More</button>
+                                    </Link>
                                 </div>
 
 
