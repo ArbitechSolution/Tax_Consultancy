@@ -150,7 +150,6 @@ export default function Service_Home() {
                                     <button className='btn bt-lg btnlearn2'>Learn More</button>
                                 </Link>
 
-
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4    col-sm-4">
